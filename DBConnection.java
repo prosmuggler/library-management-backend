@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/librarydb";
     private static final String USER = "root";
-    private static final String PASSWORD = "Kanishka$123"; // removed password for security
+    private static final String PASSWORD = "Password"; // removed password for security
 
     private static Connection connection = null;
 
